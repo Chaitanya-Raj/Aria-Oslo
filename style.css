@@ -70,6 +70,18 @@ a.selected {
     border-bottom: 2px solid #F4BCBB;
 }
 
+.pink {
+    color: var(--pink);
+}
+
+.green {
+    color: var(--green);
+}
+
+.blue {
+    color: var(--blue);
+}
+
 section {
     margin: 80px 0;
     display: grid;
