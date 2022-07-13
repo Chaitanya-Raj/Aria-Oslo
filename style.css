@@ -135,3 +135,43 @@ footer {
 footer a {
     margin: 0 16px;
 }
+
+section.contact div.form {
+    grid-column: 4 / span 6;
+}
+
+section.contact h1 {
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    background-color: var(--black);
+    border: 2px solid var(--white);
+    color: var(--white);
+    padding: 16px 8px;
+}
+
+label {
+    display: block;
+    margin: 16px 0 16px 0;
+}
+
+textarea {
+    height: 320px;
+}
+
+button {
+    background-color: var(--pink);
+    border: none;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    padding: 8px 16px 8px 16px;
+}
+
+input:focus,
+textarea:focus {
+    border: 2px solid var(--pink);
+    outline: none;
+}
