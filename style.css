@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&family=Nunito+Sans&display=swap');
+
+* {
+    --black: #02011E;
+    --white: #FFFFFF;
+    --pink: #F9D0DA;
+    --green: #7BD3B2;
+    --blue: #ADA9FC;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--black);
+    margin: 5vh 5vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin: 0px 16px;
+}
+
+nav>ul>li>a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.active {
+    text-decoration: underline;
+    color: var(--pink);
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about>img {
+    width: 500px;
+}
+
+.about>.bio {
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+}
+
+.contact-form>input,
+.contact-form>textarea {
+    background-color: var(--black);
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+footer>h2 {
+    margin: 0 15px;
+}
