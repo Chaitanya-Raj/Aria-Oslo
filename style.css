@@ -67,7 +67,7 @@ a.selected {
 }
 
 a.selected {
-    border-bottom: 2px solid #F4BCBB;
+    border-bottom: 2px solid var(--pink);
 }
 
 h1 span.pink {
